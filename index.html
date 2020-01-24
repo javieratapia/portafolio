@@ -10,36 +10,116 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Oxygen|Pacifico&display=swap" rel="stylesheet">
     <!--Mi estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#"><img src="assets/img/logo-white.png" class="img-responsive size-logo" alt="Logo del sitio web"></a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand"
+      href="#"><h1>Javi Tapia</h1>
+    </a>
+    <button class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            arialabel="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">Sobre mi</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#work">Experiencia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Trabajos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contacto</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+<header>
+  <h1>Javi Tapia</h1>
+</header>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-2 ">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Productos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-          </ul>
-        </div>
+<section class="row">
+  <h3>Mi objetivo es especializarme en el desarrollo Front End para llevar la transformación digital a cada emprendimiento que así lo quiera. </h2>
+  <hr>
+  <p class="col-6">Tras terminar mi carrera de ingeniería comercial en la Universidad Técnica Federico Santa María, comencé mis estudios en el área del emprendimiento, lo que me llevó a ser becada por la Academia de Innovación para mujeres en América Latina, Her Global Impact, en al año 2019. </p>
+  <p class="col-6">Esta experiencia me permitió descubrir mi pasión por la tecnología y la necesidad de profesionales que aporten a los emprendedores con su presencia en internet.</p>
+</section>
+
+<section class="row">
+  <div class="col-4">
+    <i class="fas fa-crow"></i>
+    <h3>Ingeniera Comercial</h3>
+  </div>
+  <div class="col-4">
+    <i class="fas fa-kiwi-bird"></i>
+    <h3>Her Global Impact</h3>
+  </div>
+  <div class="col-4">
+    <i class="fas fa-dove"></i>
+    <h3>Desarrolladora Front End</h3>
+  </div>
+</section>
+
+<section>
+  <h2>Mis Trabajos</h2>
+  <div class="row">
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/Her Global retrato.jpg" class="card-img-top" alt="página de espacio de reuniones">
+      <div class="card-body">
+        <p class="card-text">Diseño pensado en espacios co-work</p>
       </div>
-    </nav>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/iguana.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/cuppon.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
 
-
+  <div class="row">
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/suricata.png" class="card-img-top" alt="página de espacio de reuniones">
+      <div class="card-body">
+        <p class="card-text">Diseño pensado en espacios co-work</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/meetcoffee.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+    <div class="card" style="width: 18rem;">
+      <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+</section>
     <!--jQuery 3.3.1 (sin slim)-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
     </script>
