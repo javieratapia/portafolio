@@ -11,115 +11,130 @@
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Oxygen|Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen:400;700|Pacifico&display=swap" rel="stylesheet">
     <!--Mi estilo-->
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-  <div class="container">
-    <a class="navbar-brand"
-      href="#"><h1>Javi Tapia</h1>
-    </a>
-    <button class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            arialabel="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#about">Sobre mi</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#work">Experiencia</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Trabajos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contacto</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand"
+          href="#"><h1>Javi Tapia</h1>
+        </a>
+        <button class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                arialabel="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-mi">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#experiencia">Experiencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#trabajos">Trabajos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-<header>
-  <h1>Javi Tapia</h1>
-</header>
+    <header class="container-fluid">
+    </header>
 
-<section class="row">
-  <h3>Mi objetivo es especializarme en el desarrollo Front End para llevar la transformación digital a cada emprendimiento que así lo quiera. </h2>
-  <hr>
-  <p class="col-6">Tras terminar mi carrera de ingeniería comercial en la Universidad Técnica Federico Santa María, comencé mis estudios en el área del emprendimiento, lo que me llevó a ser becada por la Academia de Innovación para mujeres en América Latina, Her Global Impact, en al año 2019. </p>
-  <p class="col-6">Esta experiencia me permitió descubrir mi pasión por la tecnología y la necesidad de profesionales que aporten a los emprendedores con su presencia en internet.</p>
-</section>
+    <section id="sobre-mi" class="row about d-none d-sm-block">
+      <h3>Mi objetivo es especializarme en el desarrollo Front End para llevar la transformación digital a cada emprendimiento que así lo quiera. </h2>
+      <hr>
+      <p class="col-6">Tras terminar mi carrera de ingeniería comercial en la Universidad Técnica Federico Santa María, comencé mis estudios en el área del emprendimiento, lo que me llevó a ser becada por la Academia de Innovación para mujeres en América Latina, Her Global Impact, en al año 2019. </p>
+      <p class="col-6">Esta experiencia me permitió descubrir mi pasión por la tecnología y la necesidad de profesionales que aporten a los emprendedores con su presencia en internet.</p>
+    </section>
 
-<section class="row">
-  <div class="col-4">
-    <i class="fas fa-crow"></i>
-    <h3>Ingeniera Comercial</h3>
-  </div>
-  <div class="col-4">
-    <i class="fas fa-kiwi-bird"></i>
-    <h3>Her Global Impact</h3>
-  </div>
-  <div class="col-4">
-    <i class="fas fa-dove"></i>
-    <h3>Desarrolladora Front End</h3>
-  </div>
-</section>
+    <section id="experiencia" class="row experience">
+      <h2 class="col-12">MIS ESTUDIOS</h2>
+      <div class="row">
+        <div class="colexp">
+          <i class="fas fa-crow fa-4x"></i>
+          <h3>Ingeniera Comercial</h3>
+        </div>
+        <div class="colexp">
+          <i class="fas fa-kiwi-bird fa-4x"></i>
+          <h3>Her Global Impact</h3>
+        </div>
+        <div class="colexp">
+          <i class="fas fa-dove fa-4x"></i>
+          <h3>Desarrolladora Front End</h3>
+        </div>
+      </div>
+    </section>
 
-<section>
-  <h2>Mis Trabajos</h2>
-  <div class="row">
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/Her Global retrato.jpg" class="card-img-top" alt="página de espacio de reuniones">
-      <div class="card-body">
-        <p class="card-text">Diseño pensado en espacios co-work</p>
+    <section id="trabajos" class="work">
+      <h2>Mis Trabajos</h2>
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/meetcoffee.png" class="card-img-top" alt="página de espacio de reuniones">
+          <div class="card-body">
+            <p class="card-text">Diseño pensado en espacios co-work</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/iguana.png" class="card-img-top" alt="página de caracteristicas de animales">
+          <div class="card-body">
+            <p class="card-text">Diseño para página de difusión de características de los animales</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/cuppon.jpg" class="card-img-top" alt="página de ventas de cupones">
+          <div class="card-body">
+            <p class="card-text">Diseño estilo Groupon para venta de cupones</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/iguana.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/cuppon.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
 
-  <div class="row">
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/suricata.png" class="card-img-top" alt="página de espacio de reuniones">
-      <div class="card-body">
-        <p class="card-text">Diseño pensado en espacios co-work</p>
+      <div class="row">
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/suricata.jpg" class="card-img-top" alt="página de venta de comidas">
+          <div class="card-body">
+            <p class="card-text">Diseño de plataforma de comercialización de comidas</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/meetcoffee.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Diseño para espacios de interacción entre emprendedores</p>
+          </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+          <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-text">Diseño para recetario online</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/meetcoffee.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-    <div class="card" style="width: 18rem;">
-      <img src="assets/img/ricomida.png" class="card-img-top" alt="...">
-      <div class="card-body">
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      </div>
-    </div>
-  </div>
-</section>
+    </section>
+
+    <section id="contacto" class="contact">
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdu7RdiXqzSA_jawYJ63vdS42TMuWgj7-J_cI9xiVCpwyZwOg/viewform?embedded=true" width="640" height="947" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+    </section>
+
+    <footer>
+      <a href="https://github.com/javieratapia"><i class="fab fa-github-square fa-2x"></i></a>
+      <a href="https://twitter.com/JaviTapiaOfi"><i class="fab fa-twitter-square fa-2x"></i></a>
+      <a href="https://www.linkedin.com/in/javieratapiastahl/"><i class="fab fa-linkedin fa-2x"></i></a>
+    </footer>
+
+
+
     <!--jQuery 3.3.1 (sin slim)-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous">
     </script>

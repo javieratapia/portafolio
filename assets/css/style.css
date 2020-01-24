@@ -1,3 +1,58 @@
-nav{
+nav, footer{
   background-color: #660066;
+}
+body{
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+}
+
+nav h1{
+  font-family: 'Pacifico', cursive;
+}
+
+header{
+    background-image: url('../img/Her Global retrato.jpg');
+    margin-top: 15vw;
+    padding-bottom: 30rem;
+    background-size: cover;
+    background-position: center;
+}
+.colexp{
+  width: 100%;
+  display: block;
+  text-align: center;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #660066;
+}
+.experience h2, .work h2{
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  color: #660066;
+  text-transform: uppercase;
+}
+.work {
+  background-color: #FFE78F;
+}
+.work .card{
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+.contact{
+  transform: scale(0.5);
+  transform-origin: 0 0;
+  margin-bottom: -30rem;;
+}
+footer a{
+  display: inline;
+  padding: 1rem;
+  color: white;
+}
+footer{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
 }
