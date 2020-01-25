@@ -25,7 +25,7 @@ header{
   padding-bottom: 5rem;
   color: #660066;
 }
-.experience h2, .work h2{
+h2{
   font-weight: 700;
   font-size: 2rem;
   text-align: center;
@@ -41,18 +41,24 @@ header{
   margin-left: 2rem;
   margin-bottom: 1rem;
 }
-.contact{
+.contact-form{
   transform: scale(0.5);
   transform-origin: 0 0;
   margin-bottom: -30rem;;
 }
 footer a{
   display: inline;
-  padding: 1rem;
-  color: white;
 }
 footer{
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
+}
+.carousel-control-prev, .carousel-control-next{
+  background-color: #660066;
+}
+@media (min-width: 1200px) {
+
+
+
 }
