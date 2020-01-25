@@ -44,7 +44,7 @@ h2{
 .contact-form{
   transform: scale(0.5);
   transform-origin: 0 0;
-  margin-bottom: -30rem;;
+
 }
 footer a{
   display: inline;
@@ -57,8 +57,365 @@ footer{
 .carousel-control-prev, .carousel-control-next{
   background-color: #660066;
 }
+
+@media (min-width: 576px) {
+  nav, footer{
+    background-color: #660066;
+  }
+  body{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+  }
+
+  nav h1{
+    font-family: 'Pacifico', cursive;
+  }
+
+  header{
+      background-image: url('../img/Her Global retrato.jpg');
+      margin-top: 0vw;
+      padding-bottom: 70rem;
+      background-size: cover;
+      background-position: center;
+  }
+  .about h3{
+    text-align: center;
+    padding: 4vw;
+    background-color: #FFE78F;
+    color:  #660066;
+    line-height: 2em;
+  }
+  .about p{
+    margin-left: 5vw;
+    margin-top: 4vw;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  .colexp{
+    width: 25%;
+    display: block;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #660066;
+    margin-left: 5%;
+  }
+  .experience{
+    margin-top: 4vw;
+  }
+  .work .tarjetas{
+    padding-left: 30vw;
+    padding-right: 30vw;
+  }
+  .work .card{
+    margin-left: 1vw;
+    margin-bottom: 1rem;
+  }
+  .work{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+  .work h2{
+    margin-bottom: 3em;
+  }
+  .clients{
+    margin-top: 4vw;
+  }
+  .carousel{
+    width: 60%;
+    margin-left: 20vw;
+  }
+  .contact{
+    margin-top: 4vw;
+  }
+  .contact-form{
+    transform: scale(1.5);
+    transform-origin: 0 0;
+    margin-left: 1vw;
+    margin-bottom: 300px;
+  }
+  footer a{
+    display: inline;
+    margin: 2vw;
+  }
+  footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    background-color: #660066;
+  }
+}
+
+@media (min-width: 768px) {
+  nav, footer{
+    background-color: #660066;
+  }
+  body{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+  }
+
+  nav h1{
+    font-family: 'Pacifico', cursive;
+  }
+
+  header{
+      background-image: url('../img/Her Global retrato.jpg');
+      margin-top: 1vw;
+      padding-bottom: 70rem;
+      background-size: cover;
+      background-position: center;
+  }
+  .about h3{
+    text-align: center;
+    padding: 4vw;
+    background-color: #FFE78F;
+    color:  #660066;
+    line-height: 2em;
+  }
+  .about p{
+    margin-left: 5vw;
+    margin-top: 4vw;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  .colexp{
+    width: 25%;
+    display: block;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #660066;
+    margin-left: 5%;
+  }
+  .experience{
+    margin-top: 4vw;
+  }
+  .work .tarjetas{
+    padding-left: 30vw;
+    padding-right: 30vw;
+  }
+  .work .card{
+    margin-left: 2.5vw;
+    margin-bottom: 1rem;
+  }
+  .work{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+  .work h2{
+    margin-bottom: 3em;
+  }
+  .clients{
+    margin-top: 4vw;
+  }
+  .carousel{
+    width: 60%;
+    margin-left: 20vw;
+  }
+  .contact{
+    margin-top: 4vw;
+  }
+  .contact-form{
+    transform: scale(1.5);
+    transform-origin: 0 0;
+    margin-left: 1vw;
+    margin-bottom: 300px;
+  }
+  footer a{
+    display: inline;
+    margin: 2vw;
+  }
+  footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    background-color: #660066;
+  }
+}
+
+@media (min-width: 992px) {
+  nav, footer{
+    background-color: #660066;
+  }
+  body{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+  }
+
+  nav h1{
+    font-family: 'Pacifico', cursive;
+  }
+
+  header{
+      background-image: url('../img/Her Global retrato.jpg');
+      margin-top: 4vw;
+      padding-bottom: 70rem;
+      background-size: cover;
+      background-position: center;
+  }
+  .about h3{
+    text-align: center;
+    padding: 4vw;
+    background-color: #FFE78F;
+    color:  #660066;
+    line-height: 2em;
+  }
+  .about p{
+    margin-left: 5vw;
+    margin-top: 4vw;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  .colexp{
+    width: 25%;
+    display: block;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #660066;
+    margin-left: 5%;
+  }
+  .experience{
+    margin-top: 4vw;
+  }
+  .work .tarjetas{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .work .card{
+    margin-left: 5vw;
+    margin-bottom: 1rem;
+  }
+  .work{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+  .work h2{
+    margin-bottom: 3em;
+  }
+  .clients{
+    margin-top: 4vw;
+  }
+  .carousel{
+    width: 60%;
+    margin-left: 20vw;
+  }
+  .contact{
+    margin-top: 4vw;
+  }
+  .contact-form{
+    transform: scale(1.5);
+    transform-origin: 0 0;
+    margin-left: 5vw;
+    margin-bottom: 300px;
+  }
+  footer a{
+    display: inline;
+    margin: 2vw;
+  }
+  footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    background-color: #660066;
+  }
+
+
+}
+
 @media (min-width: 1200px) {
+  nav, footer{
+    background-color: #660066;
+  }
+  body{
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+  }
 
+  nav h1{
+    font-family: 'Pacifico', cursive;
+  }
 
-
+  header{
+      background-image: url('../img/Her Global retrato.jpg');
+      margin-top: 4vw;
+      padding-bottom: 70rem;
+      background-size: cover;
+      background-position: center;
+  }
+  .about h3{
+    text-align: center;
+    padding: 4vw;
+    background-color: #FFE78F;
+    color:  #660066;
+    line-height: 2em;
+  }
+  .about p{
+    margin-left: 5vw;
+    margin-top: 4vw;
+    font-weight: 400;
+    font-size: 1.5em;
+  }
+  .colexp{
+    width: 30%;
+    display: block;
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    color: #660066;
+    margin-left: 3%;
+  }
+  .experience{
+    margin-top: 4vw;
+  }
+  .work .tarjetas{
+    padding-left: 10vw;
+    padding-right: 0;
+  }
+  .work .card{
+    margin-left: 5vw;
+    margin-bottom: 1rem;
+  }
+  .work{
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+  }
+  .work h2{
+    margin-bottom: 3em;
+  }
+  .clients{
+    margin-top: 4vw;
+  }
+  .carousel{
+    width: 60%;
+    margin-left: 20vw;
+  }
+  .contact{
+    margin-top: 4vw;
+  }
+  .contact-form{
+    transform: scale(1.5);
+    transform-origin: 0 0;
+    margin-left: 22vw;
+    margin-bottom: 300px;
+  }
+  footer a{
+    display: inline;
+    margin: 2vw;
+  }
+  footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    text-align: center;
+  }
+  .carousel-control-prev, .carousel-control-next{
+    background-color: #660066;
+  }
 }
